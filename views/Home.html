@@ -1,0 +1,16 @@
+﻿<div class="container">
+<!--    <h2 class="page-header">{{event.name}}</h2>-->
+    <div class="row" col-md-6>
+        <!--<img src="../images/Ticket-restaurant-2016-photo-161.png"/>
+        <p>{{event.description}}</p>
+        <button class="btn btn-primary">Subscribe 2$</button>-->
+
+        <ul>
+            <li ng-repeat="event in events">
+                <span>{{event.id}}</span>
+                <span class="label label-success">{{event.name}}</span>
+                <span class="label label-success">{{event.description}}</span>
+            </li>
+        </ul>
+    </div>
+</div>
